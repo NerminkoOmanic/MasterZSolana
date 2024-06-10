@@ -11,9 +11,9 @@ const connection = new Connection("https://api.devnet.solana.com", "confirmed");
         const splTokenModule = await import("@solana/spl-token");
         const { getOrCreateAssociatedTokenAccount, transfer } = splTokenModule;
 
-        const mint = new PublicKey("3DPZstDMyAH2tiSsvqALorWKfNNF6gjeZyCiYqZvKVjt");
+        const mint = new PublicKey("6ByjebfLVcCSF9yVQnaeF2YocaD54cpXmH7n7uymndm6");
 
-        const fromAta = new PublicKey("A4UeC1zFaY62r7URh45HKAF66NzMLpbpFPps9rUztSb5");
+        const fromAta = new PublicKey("GgqdiqmBZBwrbcQEsCoQLpmWwhSWJdh9MdN4RLugAkUR");
 
         const to = Keypair.generate();
 

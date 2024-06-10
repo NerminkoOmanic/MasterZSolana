@@ -11,7 +11,7 @@ const connection = new Connection("https://api.devnet.solana.com", "confirmed");
         const splTokenModule = await import("@solana/spl-token");
         const { mintTo, getOrCreateAssociatedTokenAccount } = splTokenModule;
 
-        const mint = new PublicKey("3DPZstDMyAH2tiSsvqALorWKfNNF6gjeZyCiYqZvKVjt");
+        const mint = new PublicKey("6ByjebfLVcCSF9yVQnaeF2YocaD54cpXmH7n7uymndm6");
 
         const tokenAccount = await getOrCreateAssociatedTokenAccount(
             connection,

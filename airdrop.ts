@@ -7,7 +7,6 @@ const connection = new Connection("https://api.devnet.solana.com", "finalized");
 
 (async () => {
     try {
-        console.log("request1");
         const aidropSignature = await connection.requestAirdrop(
             keypair.publicKey,
             5 * LAMPORTS_PER_SOL
