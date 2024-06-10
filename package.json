@@ -1,0 +1,27 @@
+{
+  "name": "my-first-solana-app",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "keygen": "ts-node ./keygen.ts",
+    "airdrop": "ts-node ./airdrop.ts",
+    "createMint": "ts-node ./spl_init.ts",
+    "mintToken": "ts-node ./spl_mint.ts",
+    "transferToken": "ts-node ./spl_transfer.ts"
+  },
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
+    "@metaplex-foundation/umi": "^0.9.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.1",
+    "@metaplex-foundation/umi-uploader-irys": "^0.9.1",
+    "@solana/spl-token": "^0.4.6",
+    "@solana/web3.js": "^1.92.1",
+    "bs58": "^5.0.0",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "ts-node": "^10.9.2"
+  }
+}
